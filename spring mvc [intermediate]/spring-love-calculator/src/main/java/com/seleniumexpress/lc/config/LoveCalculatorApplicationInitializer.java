@@ -8,9 +8,9 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-public class LoveCalculatorApplicationInitializer implements WebApplicationInitializer {
+public class LoveCalculatorApplicationInitializer /*implements WebApplicationInitializer*/ {
 
-	@Override
+	/*@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
 		
 		AnnotationConfigWebApplicationContext webApplicationContext = new AnnotationConfigWebApplicationContext();
@@ -25,12 +25,10 @@ public class LoveCalculatorApplicationInitializer implements WebApplicationIniti
 		
 		myCustomServletDispatcher.setLoadOnStartup(1);
 		myCustomServletDispatcher.addMapping("/mywebsite.com/*");
-	}
+	} */
 }
 
 /* SPRING MVC[ Intermediate]
- * https://www.youtube.com/watch?v=40YaLHbrwrY&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=1&pp=iAQB - Spring MVC Course Preview || Road map
- * https://www.youtube.com/watch?v=LxjxWE1StBk&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=2&pp=iAQB - Spring MVC Java Based Configuration || Game plan
- * https://www.youtube.com/watch?v=bA9wqGUTduw&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=3&pp=iAQB - NO WEB.XML ? || Spring MVC Java based configuration || WebApplicationInitializer
- * https://www.youtube.com/watch?v=Hk7fRv-GHpM&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=4&pp=iAQB - NO XML - Spring MVC Java-based configuration in 9 steps || Spring Annotation
+ * https://www.youtube.com/watch?v=lJxUwcmdHro&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=5&pp=iAQB - Configure Dispatcher Servlet in just two lines of code. How does this magic happen?
+ * 
  */

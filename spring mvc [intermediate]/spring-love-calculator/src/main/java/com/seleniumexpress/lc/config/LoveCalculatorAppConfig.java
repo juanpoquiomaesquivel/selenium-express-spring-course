@@ -21,3 +21,8 @@ public class LoveCalculatorAppConfig {
 		return viewResolver;
 	}
 }
+
+/* SPRING MVC[ Intermediate]
+ * https://www.youtube.com/watch?v=3x4RoGGpETM&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=6&pp=iAQB - Data Binding - Full Stack tech walk through
+ * 
+ */

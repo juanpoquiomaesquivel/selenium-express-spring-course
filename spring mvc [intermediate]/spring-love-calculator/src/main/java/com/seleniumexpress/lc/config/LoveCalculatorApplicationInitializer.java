@@ -27,8 +27,3 @@ public class LoveCalculatorApplicationInitializer /*implements WebApplicationIni
 		myCustomServletDispatcher.addMapping("/mywebsite.com/*");
 	} */
 }
-
-/* SPRING MVC[ Intermediate]
- * https://www.youtube.com/watch?v=lJxUwcmdHro&list=PL3NrzZBjk6m_2jw8sC0BkEwSPFHxgQDWr&index=5&pp=iAQB - Configure Dispatcher Servlet in just two lines of code. How does this magic happen?
- * 
- */
